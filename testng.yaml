@@ -1,0 +1,9 @@
+name: Suite
+configFailurePolicy: skip
+listeners:
+  - com.OpenCart.Utilities.ExtentListener
+tests:
+  - name: Test
+  classes:
+    - com.OpenCart.TestCases.MyAccountPage_TestCase
+

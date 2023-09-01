@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-01T16:50:20 IST" name="Suite" finished-at="2023-09-01T16:53:21 IST" duration-ms="180988">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T16:50:20 IST" name="Test" finished-at="2023-09-01T16:53:21 IST" duration-ms="180988">
+      <class name="com.OpenCart.TestCases.MyAccountPage_TestCase">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:50:20 IST" name="Setup" finished-at="2023-09-01T16:50:31 IST" duration-ms="11275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyRegistration()[pri:0, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:50:31 IST" name="VerifyRegistration" finished-at="2023-09-01T16:50:55 IST" duration-ms="23686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegistration -->
+        <test-method signature="verifyLogin()[pri:1, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:50:55 IST" name="verifyLogin" finished-at="2023-09-01T16:51:20 IST" duration-ms="25406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifySinOut()[pri:2, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:51:20 IST" name="verifySinOut" finished-at="2023-09-01T16:51:57 IST" duration-ms="36514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySinOut -->
+        <test-method signature="VerifyInvalidLogin()[pri:3, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:51:57 IST" name="VerifyInvalidLogin" finished-at="2023-09-01T16:52:04 IST" duration-ms="6773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method signature="Verify_User_Existing_Email()[pri:4, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:52:04 IST" name="Verify_User_Existing_Email" finished-at="2023-09-01T16:52:12 IST" duration-ms="7970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_User_Existing_Email -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:52:12 IST" name="tearDown" finished-at="2023-09-01T16:52:16 IST" duration-ms="4669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OpenCart.TestCases.MyAccountPage_TestCase -->
+      <class name="com.OpenCart.TestCases.SerachProduct">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpenCart.TestCases.SerachProduct@1ea9f6af]" started-at="2023-09-01T16:52:41 IST" name="Setup" finished-at="2023-09-01T16:52:47 IST" duration-ms="6098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddViewCart()[pri:0, instance:com.OpenCart.TestCases.SerachProduct@1ea9f6af]" started-at="2023-09-01T16:52:47 IST" name="AddViewCart" finished-at="2023-09-01T16:53:20 IST" duration-ms="32432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddViewCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.SerachProduct@1ea9f6af]" started-at="2023-09-01T16:53:20 IST" name="tearDown" finished-at="2023-09-01T16:53:21 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OpenCart.TestCases.SerachProduct -->
+      <class name="com.OpenCart.TestCases.MyHomePage_TestCases">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-01T16:52:16 IST" name="Setup" finished-at="2023-09-01T16:52:24 IST" duration-ms="7785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Verify_ContatUS()[pri:0, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-01T16:52:24 IST" name="Verify_ContatUS" finished-at="2023-09-01T16:52:32 IST" duration-ms="7739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ContatUS -->
+        <test-method signature="Verify_TestCase()[pri:1, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-01T16:52:32 IST" name="Verify_TestCase" finished-at="2023-09-01T16:52:36 IST" duration-ms="4768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_TestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-01T16:52:36 IST" name="tearDown" finished-at="2023-09-01T16:52:41 IST" duration-ms="4767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OpenCart.TestCases.MyHomePage_TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
