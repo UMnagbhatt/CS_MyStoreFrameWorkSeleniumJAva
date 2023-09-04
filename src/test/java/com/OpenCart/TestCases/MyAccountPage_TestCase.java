@@ -90,7 +90,7 @@ public class MyAccountPage_TestCase extends Base
 		Us.EnterSingupName("Rahul");
 		logger.info("Enter  Name on UserSingup");
 		
-		Us.EnterSingupEmail("rahuzlfxxfgsai.automated@gmail.com");
+		Us.EnterSingupEmail("punkajaa.automated@gmail.com");
 		logger.info("Enter  Eamil Address on UserSingup");
 		
 		Us.ClickSingupbutton();		

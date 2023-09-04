@@ -1,69 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+<testng-results ignored="1" total="9" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-01T16:50:20 IST" name="Suite" finished-at="2023-09-01T16:53:21 IST" duration-ms="180988">
+  <suite started-at="2023-09-04T11:11:44 IST" name="Suite" finished-at="2023-09-04T11:15:14 IST" duration-ms="209433">
     <groups>
     </groups>
-    <test started-at="2023-09-01T16:50:20 IST" name="Test" finished-at="2023-09-01T16:53:21 IST" duration-ms="180988">
+    <test started-at="2023-09-04T11:11:44 IST" name="Test" finished-at="2023-09-04T11:15:14 IST" duration-ms="209433">
       <class name="com.OpenCart.TestCases.MyAccountPage_TestCase">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:50:20 IST" name="Setup" finished-at="2023-09-01T16:50:31 IST" duration-ms="11275" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-04T11:11:44 IST" name="Setup" finished-at="2023-09-04T11:11:56 IST" duration-ms="11992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="VerifyRegistration()[pri:0, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:50:31 IST" name="VerifyRegistration" finished-at="2023-09-01T16:50:55 IST" duration-ms="23686" status="PASS">
+        <test-method signature="VerifyRegistration()[pri:0, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-04T11:11:56 IST" name="VerifyRegistration" finished-at="2023-09-04T11:12:35 IST" duration-ms="38111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyRegistration -->
-        <test-method signature="verifyLogin()[pri:1, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:50:55 IST" name="verifyLogin" finished-at="2023-09-01T16:51:20 IST" duration-ms="25406" status="PASS">
+        <test-method signature="verifyLogin()[pri:1, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-04T11:12:35 IST" name="verifyLogin" finished-at="2023-09-04T11:12:58 IST" duration-ms="23905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifySinOut()[pri:2, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:51:20 IST" name="verifySinOut" finished-at="2023-09-01T16:51:57 IST" duration-ms="36514" status="PASS">
+        <test-method signature="verifySinOut()[pri:2, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-04T11:12:58 IST" name="verifySinOut" finished-at="2023-09-04T11:13:34 IST" duration-ms="35194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySinOut -->
-        <test-method signature="VerifyInvalidLogin()[pri:3, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:51:57 IST" name="VerifyInvalidLogin" finished-at="2023-09-01T16:52:04 IST" duration-ms="6773" status="PASS">
+        <test-method signature="VerifyInvalidLogin()[pri:3, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-04T11:13:34 IST" name="VerifyInvalidLogin" finished-at="2023-09-04T11:13:42 IST" duration-ms="8241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInvalidLogin -->
-        <test-method signature="Verify_User_Existing_Email()[pri:4, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:52:04 IST" name="Verify_User_Existing_Email" finished-at="2023-09-01T16:52:12 IST" duration-ms="7970" status="PASS">
+        <test-method signature="Verify_User_Existing_Email()[pri:4, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-04T11:13:42 IST" name="Verify_User_Existing_Email" finished-at="2023-09-04T11:13:52 IST" duration-ms="9885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_User_Existing_Email -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-01T16:52:12 IST" name="tearDown" finished-at="2023-09-01T16:52:16 IST" duration-ms="4669" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.MyAccountPage_TestCase@619713e5]" started-at="2023-09-04T11:13:52 IST" name="tearDown" finished-at="2023-09-04T11:13:53 IST" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.OpenCart.TestCases.MyAccountPage_TestCase -->
       <class name="com.OpenCart.TestCases.SerachProduct">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpenCart.TestCases.SerachProduct@1ea9f6af]" started-at="2023-09-01T16:52:41 IST" name="Setup" finished-at="2023-09-01T16:52:47 IST" duration-ms="6098" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpenCart.TestCases.SerachProduct@1ea9f6af]" started-at="2023-09-04T11:14:21 IST" name="Setup" finished-at="2023-09-04T11:14:30 IST" duration-ms="9053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="AddViewCart()[pri:0, instance:com.OpenCart.TestCases.SerachProduct@1ea9f6af]" started-at="2023-09-01T16:52:47 IST" name="AddViewCart" finished-at="2023-09-01T16:53:20 IST" duration-ms="32432" status="PASS">
+        <test-method signature="AddViewCart()[pri:0, instance:com.OpenCart.TestCases.SerachProduct@1ea9f6af]" started-at="2023-09-04T11:14:30 IST" name="AddViewCart" finished-at="2023-09-04T11:15:13 IST" duration-ms="42470" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='search_product']"}
+  (Session info: chrome=109.0.5414.149)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [beab225d6cf6c6ae02424abc2d65c8e7, findElement {using=xpath, value=//*[@id='search_product']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.149, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56235/devtoo..., se:cdpVersion: 109.0.5414.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: beab225d6cf6c6ae02424abc2d65c8e7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='search_product']"}
+  (Session info: chrome=109.0.5414.149)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [beab225d6cf6c6ae02424abc2d65c8e7, findElement {using=xpath, value=//*[@id='search_product']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.149, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56235/devtoo..., se:cdpVersion: 109.0.5414.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: beab225d6cf6c6ae02424abc2d65c8e7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+at com.OpenCart.PageObject.Productpage.EnterserachProduct(Productpage.java:42)
+at com.OpenCart.TestCases.SerachProduct.AddViewCart(SerachProduct.java:113)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddViewCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.SerachProduct@1ea9f6af]" started-at="2023-09-01T16:53:20 IST" name="tearDown" finished-at="2023-09-01T16:53:21 IST" duration-ms="785" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.SerachProduct@1ea9f6af]" started-at="2023-09-04T11:15:13 IST" name="tearDown" finished-at="2023-09-04T11:15:14 IST" duration-ms="803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.OpenCart.TestCases.SerachProduct -->
       <class name="com.OpenCart.TestCases.MyHomePage_TestCases">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-01T16:52:16 IST" name="Setup" finished-at="2023-09-01T16:52:24 IST" duration-ms="7785" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-04T11:13:53 IST" name="Setup" finished-at="2023-09-04T11:14:03 IST" duration-ms="10589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Verify_ContatUS()[pri:0, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-01T16:52:24 IST" name="Verify_ContatUS" finished-at="2023-09-01T16:52:32 IST" duration-ms="7739" status="PASS">
+        <test-method signature="Verify_ContatUS()[pri:0, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-04T11:14:03 IST" name="Verify_ContatUS" finished-at="2023-09-04T11:14:09 IST" duration-ms="5767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_ContatUS -->
-        <test-method signature="Verify_TestCase()[pri:1, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-01T16:52:32 IST" name="Verify_TestCase" finished-at="2023-09-01T16:52:36 IST" duration-ms="4768" status="PASS">
+        <test-method signature="Verify_TestCase()[pri:1, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-04T11:14:09 IST" name="Verify_TestCase" finished-at="2023-09-04T11:14:17 IST" duration-ms="7675" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_TestCase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-01T16:52:36 IST" name="tearDown" finished-at="2023-09-01T16:52:41 IST" duration-ms="4767" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.TestCases.MyHomePage_TestCases@16ec5519]" started-at="2023-09-04T11:14:17 IST" name="tearDown" finished-at="2023-09-04T11:14:21 IST" duration-ms="4676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

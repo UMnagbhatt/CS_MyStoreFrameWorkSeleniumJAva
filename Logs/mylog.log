@@ -1450,3 +1450,39 @@
 [INFO ] 2023-09-01 15:01:29.212 [main] MyStoreV1 - Click Place Order button  on CheckOut
 [INFO ] 2023-09-01 15:01:32.966 [main] MyStoreV1 - Click On PayBtn After Of Paymnet Details
 [INFO ] 2023-09-01 15:01:33.021 [main] MyStoreV1 - CongoMessge is displayed ---- Passed
+[INFO ] 2023-09-04 10:50:47.023 [main] MyStoreV1 - Url Oppened
+[INFO ] 2023-09-04 10:50:47.082 [main] MyStoreV1 - Verify_ContatUS test executuion Start.............
+[INFO ] 2023-09-04 10:50:47.258 [main] MyStoreV1 - Home page Tittle is visible successfully
+[INFO ] 2023-09-04 10:50:49.075 [main] MyStoreV1 - Click on contact us Button 
+[INFO ] 2023-09-04 10:50:49.106 [main] MyStoreV1 - Get On Touch  is visible successfully
+[INFO ] 2023-09-04 10:50:49.162 [main] MyStoreV1 - Emter Name On Contact Us  
+[INFO ] 2023-09-04 10:50:49.256 [main] MyStoreV1 - Emter Email On Contact Us  
+[INFO ] 2023-09-04 10:50:49.331 [main] MyStoreV1 - Emter Subject On Contact Us  
+[INFO ] 2023-09-04 10:50:49.457 [main] MyStoreV1 - Emter Message On Contact Us  
+[INFO ] 2023-09-04 10:50:49.520 [main] MyStoreV1 - Click Submiit buttin on Contactus
+[INFO ] 2023-09-04 10:50:49.704 [main] MyStoreV1 - Claick ok on Alert
+[INFO ] 2023-09-04 10:50:49.753 [main] MyStoreV1 - Success! Your details have been submitted successfully.------Displayed
+[INFO ] 2023-09-04 10:50:53.237 [main] MyStoreV1 - Click Home Button on Contact Us
+[INFO ] 2023-09-04 10:50:53.245 [main] MyStoreV1 - Home page Tittle is visible successfully
+[INFO ] 2023-09-04 10:50:53.257 [main] MyStoreV1 - Verify_TestCase test executuion Start.............
+[INFO ] 2023-09-04 10:50:56.273 [main] MyStoreV1 - Home page Tittle is visible successfully
+[INFO ] 2023-09-04 10:50:56.354 [main] MyStoreV1 - Click on TestCase Link  
+[INFO ] 2023-09-04 10:50:59.422 [main] MyStoreV1 - TestCase Tittle is Not visible 
+[INFO ] 2023-09-04 10:51:33.000 [main] MyStoreV1 - Url Oppened
+[INFO ] 2023-09-04 10:51:33.029 [main] MyStoreV1 - Verify_ContatUS test executuion Start.............
+[INFO ] 2023-09-04 10:51:33.050 [main] MyStoreV1 - Home page Tittle is visible successfully
+[INFO ] 2023-09-04 10:51:35.419 [main] MyStoreV1 - Click on contact us Button 
+[INFO ] 2023-09-04 10:51:35.450 [main] MyStoreV1 - Get On Touch  is visible successfully
+[INFO ] 2023-09-04 10:51:35.503 [main] MyStoreV1 - Emter Name On Contact Us  
+[INFO ] 2023-09-04 10:51:35.641 [main] MyStoreV1 - Emter Email On Contact Us  
+[INFO ] 2023-09-04 10:51:35.717 [main] MyStoreV1 - Emter Subject On Contact Us  
+[INFO ] 2023-09-04 10:51:35.823 [main] MyStoreV1 - Emter Message On Contact Us  
+[INFO ] 2023-09-04 10:51:35.884 [main] MyStoreV1 - Click Submiit buttin on Contactus
+[INFO ] 2023-09-04 10:51:35.896 [main] MyStoreV1 - Claick ok on Alert
+[INFO ] 2023-09-04 10:51:35.946 [main] MyStoreV1 - Success! Your details have been submitted successfully.------Displayed
+[INFO ] 2023-09-04 10:51:36.019 [main] MyStoreV1 - Click Home Button on Contact Us
+[INFO ] 2023-09-04 10:51:36.034 [main] MyStoreV1 - Home page Tittle is visible successfully
+[INFO ] 2023-09-04 10:51:36.048 [main] MyStoreV1 - Verify_TestCase test executuion Start.............
+[INFO ] 2023-09-04 10:51:39.697 [main] MyStoreV1 - Home page Tittle is visible successfully
+[INFO ] 2023-09-04 10:51:41.228 [main] MyStoreV1 - Click on TestCase Link  
+[INFO ] 2023-09-04 10:51:44.302 [main] MyStoreV1 - TestCase Tittle is visible successfully

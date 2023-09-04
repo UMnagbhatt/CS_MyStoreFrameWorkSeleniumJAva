@@ -6,7 +6,11 @@
       <class name="com.OpenCart.TestCases.MyAccountPage_TestCase">
         <methods>
           <include name="Setup"/>
+          <include name="verifyLogin"/>
+          <include name="VerifyRegistration"/>
           <include name="Verify_User_Existing_Email"/>
+          <include name="verifySinOut"/>
+          <include name="VerifyInvalidLogin"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.OpenCart.TestCases.MyAccountPage_TestCase -->

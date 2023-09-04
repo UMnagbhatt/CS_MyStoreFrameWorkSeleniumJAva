@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods,   8 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.OpenCart.TestCases.SerachProduct" class="method navigator-link" hash-for-method="AddViewCart">AddViewCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +116,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.OpenCart.TestCases.SerachProduct" class="method navigator-link" hash-for-method="AddViewCart">AddViewCart</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.OpenCart.TestCases.MyAccountPage_TestCase" class="method navigator-link" hash-for-method="VerifyInvalidLogin">VerifyInvalidLogin</a> <!-- method navigator-link -->
@@ -154,9 +163,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.OpenCart.TestCases.SerachProduct</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -165,10 +174,38 @@
                   <a name="AddViewCart">
                   </a> <!-- AddViewCart -->
                   <span class="method-name">AddViewCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;search_product&apos;]&quot;}
+  (Session info: chrome=109.0.5414.149)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
+System info: os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [beab225d6cf6c6ae02424abc2d65c8e7, findElement {using=xpath, value=//*[@id=&apos;search_product&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.149, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56235}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56235/devtoo..., se:cdpVersion: 109.0.5414.149, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: beab225d6cf6c6ae02424abc2d65c8e7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
+	at com.OpenCart.PageObject.Productpage.EnterserachProduct(Productpage.java:42)
+	at com.OpenCart.TestCases.SerachProduct.AddViewCart(SerachProduct.java:113)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -293,37 +330,37 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifySinOut')
-data.setCell(0, 2, 'com.OpenCart.TestCases.MyAccountPage_TestCase')
-data.setCell(0, 3, 36514);
+data.setCell(0, 1, 'AddViewCart')
+data.setCell(0, 2, 'com.OpenCart.TestCases.SerachProduct')
+data.setCell(0, 3, 42470);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'AddViewCart')
-data.setCell(1, 2, 'com.OpenCart.TestCases.SerachProduct')
-data.setCell(1, 3, 32432);
+data.setCell(1, 1, 'VerifyRegistration')
+data.setCell(1, 2, 'com.OpenCart.TestCases.MyAccountPage_TestCase')
+data.setCell(1, 3, 38111);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLogin')
+data.setCell(2, 1, 'verifySinOut')
 data.setCell(2, 2, 'com.OpenCart.TestCases.MyAccountPage_TestCase')
-data.setCell(2, 3, 25406);
+data.setCell(2, 3, 35194);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyRegistration')
+data.setCell(3, 1, 'verifyLogin')
 data.setCell(3, 2, 'com.OpenCart.TestCases.MyAccountPage_TestCase')
-data.setCell(3, 3, 23686);
+data.setCell(3, 3, 23905);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Verify_User_Existing_Email')
 data.setCell(4, 2, 'com.OpenCart.TestCases.MyAccountPage_TestCase')
-data.setCell(4, 3, 7970);
+data.setCell(4, 3, 9885);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Verify_ContatUS')
-data.setCell(5, 2, 'com.OpenCart.TestCases.MyHomePage_TestCases')
-data.setCell(5, 3, 7739);
+data.setCell(5, 1, 'VerifyInvalidLogin')
+data.setCell(5, 2, 'com.OpenCart.TestCases.MyAccountPage_TestCase')
+data.setCell(5, 3, 8241);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'VerifyInvalidLogin')
-data.setCell(6, 2, 'com.OpenCart.TestCases.MyAccountPage_TestCase')
-data.setCell(6, 3, 6773);
+data.setCell(6, 1, 'Verify_TestCase')
+data.setCell(6, 2, 'com.OpenCart.TestCases.MyHomePage_TestCases')
+data.setCell(6, 3, 7675);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Verify_TestCase')
+data.setCell(7, 1, 'Verify_ContatUS')
 data.setCell(7, 2, 'com.OpenCart.TestCases.MyHomePage_TestCases')
-data.setCell(7, 3, 4768);
+data.setCell(7, 3, 5767);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -368,61 +405,63 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">VerifyRegistration</span>
-                <span class="method-start">11283 ms</span>
+                <span class="method-start">12007 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLogin</span>
-                <span class="method-start">34992 ms</span>
+                <span class="method-start">50144 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySinOut</span>
-                <span class="method-start">60399 ms</span>
+                <span class="method-start">74050 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">VerifyInvalidLogin</span>
-                <span class="method-start">96915 ms</span>
+                <span class="method-start">109246 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Verify_User_Existing_Email</span>
-                <span class="method-start">103692 ms</span>
+                <span class="method-start">117489 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">111663 ms</span>
+                <span class="method-start">127375 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.OpenCart.TestCases.MyHomePage_TestCases</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">116336 ms</span>
+                <span class="method-start">128158 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Verify_ContatUS</span>
-                <span class="method-start">124121 ms</span>
+                <span class="method-start">138748 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Verify_TestCase</span>
-                <span class="method-start">131861 ms</span>
+                <span class="method-start">144516 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">136630 ms</span>
+                <span class="method-start">152191 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.OpenCart.TestCases.SerachProduct</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">Setup</span>
-                <span class="method-start">141397 ms</span>
+                <span class="method-start">156867 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">AddViewCart</span>
-                <span class="method-start">147495 ms</span>
+                <span class="method-start">165920 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">179928 ms</span>
+                <span class="method-start">208418 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
