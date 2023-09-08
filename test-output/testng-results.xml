@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-08T16:17:28 IST" name="Suite" finished-at="2023-06-08T16:18:20 IST" duration-ms="52725">
+    <groups>
+    </groups>
+    <test started-at="2023-06-08T16:17:28 IST" name="Test" finished-at="2023-06-08T16:18:20 IST" duration-ms="52725">
+      <class name="test.Login">
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:test.Login@517d4a0d]" started-at="2023-06-08T16:17:28 IST" name="logintest" data-provider="dataSupplier" finished-at="2023-06-08T16:17:39 IST" duration-ms="10937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=inscom, ExpectedResult=Success, RunMode=Y, Browser=Chrome, Password=inscom@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:test.Login@517d4a0d]" started-at="2023-06-08T16:17:39 IST" name="logintest" data-provider="dataSupplier" finished-at="2023-06-08T16:17:47 IST" duration-ms="7717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=auto, ExpectedResult=Success, RunMode=Y, Browser=Chrome, Password=AUAT#12}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:test.Login@517d4a0d]" started-at="2023-06-08T16:17:47 IST" name="logintest" data-provider="dataSupplier" finished-at="2023-06-08T16:17:55 IST" duration-ms="8148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=lifeadmin, ExpectedResult=Success, RunMode=Y, Browser=Chrome, Password=efflyf@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:test.Login@517d4a0d]" started-at="2023-06-08T16:17:55 IST" name="logintest" data-provider="dataSupplier" finished-at="2023-06-08T16:18:06 IST" duration-ms="10498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=gmcadmin, ExpectedResult=Success, RunMode=Y, Browser=Chrome, Password=gmc@dmin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:test.Login@517d4a0d]" started-at="2023-06-08T16:18:06 IST" name="logintest" data-provider="dataSupplier" finished-at="2023-06-08T16:18:20 IST" duration-ms="14848" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=hardikv, ExpectedResult=Success, RunMode=Y, Browser=Chrome, Password=hardikv}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- test.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
